@@ -10,7 +10,7 @@
 
 Title: Loops and Errors Lab<br>
 Duration: 1 hr approx<br>
-Creator: Brandi Butler<br>
+Creator: Brandi Butler (Inspired by [GA-ATX's lab](https://git.generalassemb.ly/WDIplus-ATX/loops-and-errors) - thank you!)<br>
 Topics: Errors, While loops, For Loops<br>
 
 ---
