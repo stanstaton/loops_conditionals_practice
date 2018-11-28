@@ -20,7 +20,7 @@ Topics: Errors, While loops, For Loops<br>
 So far, we have learned about the following topics
 
 * Errors and debugging
-* Declaring variables with `let` and `const`
+* Declaring variables with `var` 
 * Boolean expressions
 * While loops
 * For loops
@@ -171,7 +171,7 @@ Write another *while* loop that prints a message to the console _and_ interpolat
 **NOTE:** Interpolation is a way of using variables in your string. You can use a set of backticks \` instead of regular quotes, and between the two backticks, put whatever strings and variables you want. For variables, specify them with a dollar sign and curly braces.
 
 ```javascript
-let name = "Rhonda"
+var name = "Rhonda"
 console.log(`Hello ${name}`);
 ```
 
@@ -190,11 +190,13 @@ console.log(`Hello ${name}`);
 
 ### 3. Take it to the limit
 
-* Declare a variable `let start = 0`
-* Declare a variable `const limit = 100`
+* Declare a variable `var start = 0`
+* Declare a variable `var LIMIT = 100`
 * Write a for loop that counts from the value of `start` to the value of `limit`, using those variables in the **control panel** of the loop.
 
-Test the loop thoroughly.
+Test the loop thoroughly!
+
+> BONUS QUESTION: Why did we declare LIMIT in all caps? What does that all-caps style usually signal (as opposed to the regular camelCasing)?
 
 ### 4. Use your imagination
 
