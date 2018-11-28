@@ -172,7 +172,7 @@ Write another *while* loop that prints a message to the console _and_ interpolat
 
 ```javascript
 var name = "Rhonda"
-console.log(`Hello ${name}`);
+console.log("Hello", name);
 ```
 
 <br>
